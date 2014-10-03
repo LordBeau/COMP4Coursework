@@ -3,28 +3,52 @@
 \section{Introduction}
 
 \subsection{Client Identification}
-My client is Mandy Middlecott, she works at addenbrooke's hospital and does something with the database. She mainly [Insert job here] and currently the system is: [insert system here]. Mandy says that the system needs [This] and that a general improvement would be [This]
+My client is Mandy Middlecott, she works in the paediatric intensive care unit at Addenbrooke's hospital and has more than enough training to be qualified to input data on to a database system. She mainly just inputs data when required, and ammends data if an error is spotted, but has no experience with the process of making such a large database. Currently the system is a basic database that is not very user friendly. Mandy says that the system would be greatly improved if there was an easier way to re-submit data about a patient that is already on the system.
 \subsection{Define the current system}
-The current system that is being used,
+The current system that is being used is a basic database where Mandy has to manually input data about a client. This data would include, but is not limited to, their name and address as well as date of birth. Being basic information, and then there is the unique code for every patient, being the Hospital Number. Then there are details of when they were admitted to hospital, when they were discharged, what mode of transport was used to get them there, and what time the call was made, if one was made.
 \subsection{Describe the problems}
+Currently, when using the database, it has a very weak GUI. This could affect work performance as it may increment the time taken for Mandy to access certain parts of the database and it is key that information is updated on to the database as soon as possible. Other than this, a key problem would be that, as stated, the database is very simple and if a patient returns to the ward (Which can happen quite a lot) after being discharged they are recorded as if they are a new patient, as a whole new record must be written about them. Even though the system will have details about the patient that wont change, this still needs to be manually entered on to the system every time.
+
+Curently on the system, there is no error handling other than manually checking data, as well as this, most of the data that is input on to the database is done so via a hard copy/notes given by others who currently hold that data. After the data is input on the database, it is still stored elsewhere, this is unneeded.
+
+Probably the biggest problem is that of security, in that, if anybody logs on to the system, they can make changes, instead of this, there should be a structured system, where the one in charge of the database can edit all data, as well as subsections being controlled by specific people, there should also be a way of viewing the data without ammending it, so that if needed, it could be taken and used elsewhere. There also needs to be some way of securing data so that it cannot be viewed if an attempt is made to do so.
 
 \subsection{Section appendix}
+
+Insert interview Q's
 
 \section{Investigation}
 
 \subsection{The current system}
 
 \subsubsection{Data sources and destinations}
+In there current system, the data sources would be the doctor, who could recieve information from the patient as well as whomever brought them in to the hospital, be it an ambulance driver, for example. When a patient comes in, said person would pass on the data of when a phone call is made to emergence services (if it is made at all) and also relay any data that they have found out about the patient thus far. This would be input on to the database and other personal information that is then found by a doctor will be written down and passed on. Throughout the duration of a patient's stay, it will be written down what is wrong with them, as well as all help administered, such as drugs and therapy.
 
 \subsubsection{Algorithms}
+Curently there are a few algorithms being used by the database system, but none, as far as I can tell being done manually.
 
 \subsubsection{Data flow diagram}
 
+Insert DFD
+
 \subsubsection{Input Forms, Output Forms, Report Formats}
+Currently, the only input form would be via the database. Outputs include daily reporting of patients data, monthly exporting (xml file format - this uses a specific dataset) as well as queries, research and audits.
+
+I don't think I can get any of this stuff.
 
 \subsection{The proposed system}
 
 \subsubsection{Data sources and destinations}
+
+\begin{center}
+\begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Data Source} & \textbf{Data} & \textbf{Destination} \\ \hline
+
+    \hline
+\end{tabular}
+\label{tab:range_examples}
+\end{center}
 
 \subsubsection{Data flow diagram}
 
